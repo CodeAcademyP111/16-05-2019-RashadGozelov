@@ -1,0 +1,47 @@
+/* #tabs{
+    margin: 0 auto;
+    width: 500px;
+    height: auto;
+}
+
+#tabs ul{
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#tabs ul li{
+    display: inline-block;
+    padding: 15px 25px;
+    border: 1px solid black;
+} */
+
+#tabs{
+    width: 500px;
+    margin: 0 auto;
+}
+
+#tabs ul{
+    margin: 30px 4px;
+    box-sizing: border-box;
+}
+
+#tabs ul li{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    /* background-color: gray; */
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+#tabs .content{
+    width: 500px;
+    min-height: 80px;
+    box-sizing: border-box;
+    padding: 10px;
+    display: none;
+}
+.view{
+    display: block !important;
+}
